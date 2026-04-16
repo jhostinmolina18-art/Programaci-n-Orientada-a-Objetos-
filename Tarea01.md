@@ -11,6 +11,8 @@
 | Postcondiciones | El cliente ha recibido el electrodoméstico.<br>El crédito ha sido otorgado y registrado.<br>El proceso de pago automático mensual está configurado. |
 | Extensiones síncronas | Si el crédito es rechazado<br>Si el cliente no está registrado<br>Si la solicitud de crédito es cancelada por el vendedor o cliente<br>Si el Sistema de Pago Automático falla en el cobro mensual |
 
+![Caso de uso 1](./Credito.png.png)
+
 ## Caso de uso: Registrar renta de película
 
 | Elemento | Descripción |
@@ -23,6 +25,8 @@
 | Precondiciones | El sistema debe estar operativo<br>El catálogo de películas debe existir<br>El empleado debe haber iniciado sesión |
 | Postcondiciones | La renta queda registrada en el sistema<br>La película queda marcada como no disponible |
 | Extensiones síncronas | En paso 3: si el cliente no está registrado → se ejecuta el registro de cliente<br>En paso 9: si la película no está disponible → el sistema muestra mensaje de error y finaliza el proceso<br>En paso 11: si el empleado cancela la operación |
+
+![Caso de uso 2](./pelicula.png.png)
 
 ## Caso de uso: Reponer artículos
 
@@ -37,3 +41,4 @@
 | Postcondiciones | El stock del producto repuesto se actualiza en el sistema.<br>Se emiten dos copias del resumen de reposición. |
 | Extensiones síncronas | Contraseña incorrecta → acceso denegado<br>Error en ingreso de datos → solicitar nuevamente |
 
+![Caso de uso 3](./bebida.png.png)
