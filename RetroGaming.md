@@ -176,6 +176,20 @@ public class Inventario implements Serializable {
 ```
 
 # Funcionamiento
-![funcionamiento](funcionamiento.png)
+![funcionamiento](image.png)
 
 # Informe
+
+Este informe describe la funcionalidad y el flujo de un programa Java diseñado para gestionar un inventario de videojuegos. El programa permite a los usuarios agregar, listar, guardar y cargar videojuegos desde un archivo.
+
+## Estructura del Código
+
+El programa consta de tres clases principales:
+
+1.  **Videojuego.java:** Define la estructura de datos para un videojuego individual, incluyendo atributos como título, plataforma, año de lanzamiento y precio. Implementa la interfaz `Serializable` para permitir la persistencia de objetos.
+
+2.  **Inventario.java:** Gestiona la colección de videojuegos utilizando un `ArrayList`. Proporciona métodos para agregar, listar, buscar por plataforma, guardar y cargar videojuegos desde un archivo. Implementa la interfaz `Serializable` para permitir la persistencia de la lista de videojuegos.
+
+3.  **Main.java:** Contiene el método `main`, que es el punto de entrada del programa. Implementa un menú interactivo para que el usuario interactúe con el inventario.
+
+
