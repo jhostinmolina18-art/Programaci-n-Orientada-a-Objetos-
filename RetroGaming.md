@@ -1,5 +1,5 @@
 
-#Clase Main
+# Clase Main
 ```java 
 package videojuego;
 import java.util.Scanner;
@@ -50,7 +50,7 @@ public class Main {
 }
 ```
 
-#Clase Videojuego
+# Clase Videojuego
 ```java
 package videojuego;
 import java.io.Serializable;
@@ -109,7 +109,7 @@ public class Videojuego implements Serializable {
     }
 }
 ```
-#Clase Inventario
+# Clase Inventario
 ```java
 package videojuego;
 import java.io.*;
@@ -176,6 +176,7 @@ public class Inventario implements Serializable {
 ```
 
 # Funcionamiento
+![funcionamiento](image.png)
 ![funcionamiento](image.png)
 
 # Informe
